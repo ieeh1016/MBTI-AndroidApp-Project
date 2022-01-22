@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f1f3f5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="당신의 진단결과"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/font2"
+                    android:layout_gravity="center">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/isfp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="유형:"
+                            android:fontFamily="@font/main"
+                            android:textStyle="bold"
+                            android:textSize="15dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/main"
+                            android:text="호기심 많은 예술가"
+                            android:textSize="15dp">
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="MBTI:"
+                            android:fontFamily="@font/main"
+                            android:textStyle="bold"
+                            android:textSize="15dp">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/main"
+                            android:text="ISFP"
+                            android:textSize="15dp">
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="연예인:"
+                            android:fontFamily="@font/main"
+                            android:textStyle="bold"
+                            android:textSize="15dp">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/main"
+                            android:text="권정열 , 청하 , 한해 , 정국"
+                            android:textSize="15dp">
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="비율:"
+                            android:fontFamily="@font/main"
+                            android:textStyle="bold"
+                            android:textSize="15dp">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/main"
+                            android:text="6.61%"
+                            android:textSize="15dp">
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/resultstyle1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/font2"
+                        android:text="내향적"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/inner"></ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/resultstyle2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/font2"
+                        android:text="관찰적"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/observe"></ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/resultstyle3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/font2"
+                        android:text="감각적"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/feeling"></ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/resultstyle4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/font2"
+                        android:text="인식적"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/aware"></ImageView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/descriptionstyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+
+
+                    android:layout_gravity="center"
+                    android:layout_width="380dp"
+                    android:layout_height="50dp"
+                    android:text="💪ISFP 강점"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/main"
+                    android:textColor="@color/black"
+                    android:gravity="center"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+
+                    android:src="@drawable/isfp_good"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸타인에 대한 민감성 - 모험가는 타인의 감정에 쉽게 공감하여 화합과 선의를 형성하고 갈등을 최소화합니다."></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸상상력 – 다른 사람의 감정을 잘 알고 있는 Adventurer 성격은 창의성과 통찰력을 사용하여 사람들의 마음을 움직이는 대담한 아이디어를 만듭니다. 이 자질은 이력서로 설명하기 어렵지만, 이 생생한 상상력과 탐구 정신은 예상치 못한 방식으로 모험가들을 돕습니다.
+"></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸열정적 - 모험가의 조용한 수줍음 아래에서 격렬하게 느끼는 마음을 뛴다. 이 성격 유형을 가진 사람들이 흥미롭고 흥미로운 일에 휘말리면 다른 모든 것을 먼지 속에 남겨둘 수 있습니다."></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸호기심 – 아이디어는 훌륭하지만 모험가는 자신의 아이디어가 맞는지 직접 확인하고 탐구해야 합니다. 과학을 중심으로 하는 작업은 특성에 맞지 않는 것처럼 보일 수 있지만 대담한 예술적, 인본주의적 비전은 종종 연구가 앞으로 나아가는 데 필요한 것입니다. 모험가에게 자유가 주어진다면 그렇게 해야 합니다."></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸예술적 – 모험가는 눈에 보이는 방식으로 놀라운 아름다움으로 창의성을 보여줄 수 있습니다. 노래를 쓰든, 감정을 그리든, 그래프로 통계를 제시하든, 모험가는 청중의 공감을 불러일으키는 것을 시각화하는 방법을 가지고 있습니다."></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/descriptionstyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+
+
+                    android:layout_gravity="center"
+                    android:layout_width="380dp"
+                    android:layout_height="50dp"
+                    android:text="💉ISFP 약점"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/main"
+                    android:textColor="@color/black"
+                    android:gravity="center"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+
+                    android:src="@drawable/isfp_bad"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸맹렬한 독립 – 표현의 자유는 종종 모험가의 최우선 과제입니다. 전통과 엄격한 규칙과 같이 그것을 방해하는 모든 것은 모험가 성격에 대한 압박감을 조성합니다. 이것은 더 엄격하게 구조화된 학문을 만들고 도전을 할 수 있습니다.
+
+"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸예측 불가능 – 모험가는 장기적인 약속과 계획을 싫어합니다. 미래에 대한 계획을 적극적으로 피하는 경향은 모험가의 연애 관계에 부담을 주고 훗날 재정적 어려움을 야기할 수 있습니다.
+"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸쉽게 스트레스를 받습니다 - 모험가들은 감정이 넘치는 현재를 살고 있습니다. 상황이 통제 불능 상태가 되면 이 성격 유형(특히 난폭한 유형)을 가진 사람들은 폐쇄적이어서 이를 갈기 위해 특유의 매력과 창의성을 잃을 수 있습니다.
+"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸지나친 경쟁 - 모험가는 작은 일을 격렬한 경쟁으로 확대하여 순간의 영광을 위한 장기적 성공을 도외시하고 패배했을 때 불행해할 수 있습니다."></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸흔들리는 자존감 – 기술을 정량화하는 것이 요구되지만 모험가의 감수성과 예술성의 강점으로 하기는 어렵습니다. 모험가의 노력은 특히 인생 초기에 상처를 입히고 해로운 타격으로 종종 무시됩니다. 모험가는 강력한 지원 없이 반대론자를 믿기 시작할 수 있습니다."></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/descriptionstyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+
+
+                    android:layout_gravity="center"
+                    android:layout_width="380dp"
+                    android:layout_height="50dp"
+                    android:text="💖환상의 궁합"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/main"
+                    android:textColor="@color/black"
+                    android:gravity="center"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="500dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/estj"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/font2"
+                    android:text="ESTJ 엄격한 관리자"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="500dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/esfj"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/font2"
+                    android:text="ESFJ 사교적인 외교관"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f1f3f5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/back"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="성격유형"
+                        android:textSize="15dp"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="ENFJ '정의로운 사회운동가'"
+                            android:fontFamily="@font/main"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="401dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="240dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/enfj" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="😇성격유형 : '정의로운 사회운동가' 소개"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="◼당신이 현재하는 사소한 행위는 잔잔한 물결처럼 서서히 퍼져나가 모든 이에게 영향을 줍니다. 당신의 마음가짐이 다른 이의 가슴에 불을 지필 수도, 근심을 초래할 수도 있습니다. 당신의 숨소리가 사랑의 빛을 뿜어낼 수도, 우울함으로 온 방안을 어둡게 만들 수도 있습니다. 당신의 시선이 즐거움을 선사할 수도 있으며, 당신의 언어가 자유를 향한 열망을 독려할 수도 있습니다. 당신의 행동 하나하나가 다른 이들의 생각과 마음을 열 수 있습니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="◼사회운동가형 사람은 카리스마와 충만한 열정을 지닌 타고난 리더형입니다. 인구의 대략 2%가 이 유형에 속하며, 정치가나 코치 혹은 교사와 같은 직군에서 흔히 볼 수 있습니다. 이들은 다른 이들로 하여금 그들의 꿈을 이루며, 선한 일을 통하여 세상에 빛과 소금이 될 수 있도록 사람들을 독려합니다. 또한, 자신뿐 아니라 더 나아가 살기 좋은 공동체를 만들기 위해 사람들을 동참시키고 이끄는 데에서 큰 자부심과 행복을 느낍니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/enfj_photo"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💪ENFJ 강점"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/enfj_good"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸수용적 – 주인공은 강한 의견을 가지고 있지만 폐쇄적인 생각과는 거리가 멉니다. 그들은 다른 사람들이 자신을 완전히 표현할 수 있도록 하는 것의 중요성을 인식합니다. 주인공은 누군가에게 동의하지 않더라도 그 사람이 자신의 진실을 말할 권리를 인정합니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸신뢰할 수 있음 - 자신이 믿는 사람이나 명분을 실망시키는 것보다 주인공을 괴롭히는 일은 거의 없습니다. 이러한 성격 유형을 가진 사람들은 자신의 약속과 책임을 끝까지 이행할 수 있다고 믿을 수 있습니다. 심지어 그렇게 하기 어려운 경우에도 마찬가지입니다.
+"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸열정적 - 주인공은 지루한 일을 잘하는 사람과는 거리가 멉니다. 이러한 유형은 흥미가 넘치며 하이킹, 요리, 춤, 관엽 식물 재배 또는 완전히 다른 무엇이든 취미를 추구하는 데 큰 즐거움을 느낍니다. 결과적으로, 그들은 흥미로운 일을 하다가 손실을 보는 경우가 거의 없습니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸이타적 – 이 성격은 긍정적인 변화를 위한 힘에 대한 깊은 열망을 품고 있는 것으로 알려져 있습니다. 주인공들은 사람들을 하나로 모으면 좋은 세상을 만들 수 있다고 진심으로 믿습니다."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸카리스마 - 결단력 있고 영감을 주는 주인공은 종종 리더십 역할을 찾습니다. 그들이 소프트볼 팀의 주장이든 세계 무대의 지도자이든, 그들은 다른 사람들에게 봉사하는 것이 그들의 주요 목표를 거의 잃지 않습니다."></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💉ENFJ 약점"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/enfj_bad"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸비현실적 – 많은 주인공들은 마주치는 모든 잘못을 바로잡기 위해 스스로에게 압력을 가합니다. 그러나 이러한 인물들이 아무리 애를 써도 세상의 모든 문제를 해결하는 것은 현실적이지 않습니다. 조심하지 않으면 너무 가늘게 퍼질 수 있고 누군가를 도울 수 없게 될 수도 있습니다.
+
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸지나치게 이상주의적 – 주인공은 옳고 그름에 대해 명확한 생각을 갖고 있는 경향이 있습니다. 그들은 종종 모든 사람이 이러한 기본 원칙을 공유한다고 생각하거나 적어도 모든 사람 이 이러한 원칙을 공유 해야 한다고 생각합니다 . 그래서 사람들이 진실이나 정의와 같은 핵심 가치를 위반할 때 주인공에게 진정한 충격으로 다가올 수 있습니다.
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸거만함 – 이 성격 유형을 가진 사람들은 다른 사람들, 특히 그들에게 매우 중요한 원인과 신념에 대해 가르치는 것을 즐깁니다. 그러나 때때로 다른 사람들을 '계몽' 하려는 주인공의 시도는 유감스럽게도 다른 사람들을 설득하는 가장 효과적인 전략이 아닌 후원으로 보일 수 있습니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸강렬함 - 자기 계발에 있어서 주인공은 에너지나 결단력이 부족한 경우가 거의 없습니다. 그러나 그들은 모든 사람이 이러한 특성을 공유하는 것은 아니라는 사실을 인식하지 못할 수도 있습니다. 때때로 주인공은 준비가 되지 않았거나 단순히 처음부터 관심이 없는 변경을 다른 사람들에게 강요할 수 있습니다."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸지나치게 공감적 - 동정심은 이 성격 유형의 가장 큰 장점 중 하나입니다. 그러나 주인공은 다른 사람들의 문제를 자신의 문제로 받아들이는 경향이 있습니다. 습관적으로 감정적으로나 육체적으로 지칠 수 있습니다."></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💖환상의 궁합"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/isfp"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/font2"
+                android:text="ISFP 호기심 많은 예술가"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/istp"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/font2"
+                android:text="ISTP 만능 재주꾼"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

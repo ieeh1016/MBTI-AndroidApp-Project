@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f1f3f5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/back"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="성격유형"
+                        android:textSize="15dp"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="ISTP '만능 재주꾼'"
+                            android:fontFamily="@font/main"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="401dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="240dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/istp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="😇성격유형 : '만능 재주꾼' 소개"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="◼냉철한 이성주의적 성향과 왕성한 호기심을 가진 만능재주꾼형 사람은 직접 손으로 만지고 눈으로 보면서 주변 세상을 탐색하는 것을 좋아합니다. 무엇을 만드는 데 타고난 재능을 가진 이들은 하나가 완성되면 또 다른 과제로 옮겨 다니는 등 실생활에 유용하면서도 자질구레한 것들을 취미 삼아 만드는 것을 좋아하는데, 그러면서 새로운 기술을 하나하나 터득해 나갑니다. 종종 기술자나 엔지니어이기도 한 이들에게 있어 소매를 걷어붙이고 작업에 뛰어들어 직접 분해하고 조립할 때보다 세상에 즐거운 일이 또 없을 것입니다. 전보다 조금은 더 향상된 모습으로요."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="◼만능재주꾼형 사람은 창조와 문제 해결을 위한 이해, 그리고 실행 착오와 실질적인 경험을 통해 아이디어를 탐색합니다. 다른 이들이 그들의 과제에 흥미를 보이는 것을 좋아하며, 간혹 다른 이들로 하여금 작업 중인 과제에 참여하도록 유도하기도 합니다. 단, 그들만의 원리원칙이나 자유를 침범하지 않는 범위에 한해서 말이죠. 사람들은 만능재주꾼형 사람이 베푸는 호의에 열린 마음으로 대할 필요가 있습니다. 타인을 잘 도우며 그들의 경험을 다른 이들과 공유하는 것을 좋아하기도 하는 이들은 특히나 그들이 아끼는 사람일수록 더욱 그러합니다. 이들이 인구의 고작 5%만이 차지하지 않는다는 사실이 그저 안타까울 따름입니다. 더욱이 여성의 경우는 더욱 흔치 않은데, 대개 이 성향의 여성은 사회가 일반적으로 요구하는 이상적인 여성상에 들어맞지 않는 경우가 많으며, 이들은 자라면서 말괄량이 소리를 듣기도 합니다.
+
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/istp_photo"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💪ISTP 강점"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/istp_good"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸낙관적이고 활력이 넘친다 – 거장은 일반적으로 어떤 프로젝트나 다른 프로젝트에서 자신의 팔꿈치까지 입니다. 명랑하고 좋은 성격의 거장 성격 유형을 가진 사람들(특히 독단적인 사람들)은 스트레스를 거의 받지 않고 흐름을 따라가기를 선호합니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸창의적이고 실용적 – 거장들은 실용적인 것, 역학 및 공예에 관해서는 매우 상상력이 풍부합니다. 참신한 아이디어는 쉽게 나오고 손으로 실행에 옮기는 것을 좋아합니다.
+"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸자발성과 합리성 – 자발성과 논리를 결합한 Virtuosos는 적은 노력으로 새로운 상황에 맞게 사고 방식을 전환하여 유연하고 다재다능한 개인으로 만들 수 있습니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸우선 순위 지정 방법 – 이러한 유연성에는 예측할 수 없는 경우가 있지만 Virtuoso 성격은 비오는 날을 위해 자발성을 저장하고 가장 필요할 때 에너지를 방출할 수 있습니다."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸위기 시의 위대함 – 이 모든 실습의 창의성과 자발성으로 인해 Virtuosos가 위기 상황에서 타고난 사람이라는 것은 놀라운 일이 아닙니다. 이 성격 유형을 가진 사람들은 일반적으로 약간의 신체적 위험을 즐기며 상황에 따라 손이 더러워지는 것을 두려워하지 않습니다."></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💉ISTP 약점"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/istp_bad"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸완고함 – 거장들이 흐름을 따라가는 것처럼 쉽게 흐름을 완전히 무시할 수 있으며 일반적으로 사과나 민감도가 거의 없이 다른 방향으로 이동할 수 있습니다. 누군가 비판을 통해 Virtuosos의 습관, 생활 방식 또는 아이디어를 바꾸려고 하면 짜증이 나서 상당히 무뚝뚝해질 수 있습니다.
+
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸둔감함 - 거장은 논리를 사용하고, 공감과 감성적인 감성으로 중간에 만나려고 해도 말이 잘 통하지 않는 것 같다.
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸쉽게 지루해 함 – 거장들은 참신함을 즐기므로 뛰어난 땜장이가되지만 장기적으로 일에 집중할 때는 훨씬 덜 안정적입니다. 일단 무언가가 이해되면 거장은 단순히 새롭고 더 흥미로운 것으로 넘어가는 경향이 있습니다.
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸싫은 약속 – 장기 약속은 특히 Virtuosos에게 부담이 됩니다. 그들은 매일매일 일을 하는 것을 선호하고, 오랫동안 무언가에 갇힌 느낌은 완전히 억압적입니다. 이것은 Virtuosos의 낭만적인 관계에서 특별한 도전이 될 수 있습니다."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸위험한 행동 – 이러한 고집, 다른 사람의 감정에 대한 어려움, 순간에 집중하고 쉽게 지루함을 느끼면 재미를 위해 불필요하고 도움이 되지 않는 경계를 넘을 수 있습니다. 거장들은 갈등과 위험이 어디로 가는지 확인하는 것만으로도 상황을 통제하지 못할 경우 주변의 모든 사람에게 재앙적인 결과를 초래할 수 있는 것으로 알려져 있습니다."></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💖환상의 궁합"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/estj"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/font2"
+                android:text="ESTJ 엄격한 관리자"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/esfj"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/font2"
+                android:text="ESFJ 사교적인 외교관"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

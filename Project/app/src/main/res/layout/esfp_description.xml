@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f1f3f5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/back"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="성격유형"
+                        android:textSize="15dp"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="ESFP '자유로운 영혼의 연예인'"
+                            android:fontFamily="@font/main"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="401dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="240dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/esfp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="😇성격유형 : '자유로운 영혼의 연예인' 소개"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="◼갑자기 흥얼거리며 즉흥적으로 춤을 추기 시작하는 누군가가 있다면 이는 연예인형의 사람일 가능성이 큽니다. 이들은 순간의 흥분되는 감정이나 상황에 쉽게 빠져들며, 주위 사람들 역시 그런 느낌을 만끽하기를 원합니다. 다른 이들을 위로하고 용기를 북돋아 주는 데 이들보다 더 많은 시간과 에너지를 소비하는 사람 없을 겁니다. 더욱이나 다른 유형의 사람과는 비교도 안 될 만큼 거부할 수 없는 매력으로 말이죠."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="◼천부적으로 스타성 기질을 타고난 이들은 그들에게 쏟아지는 스포트라이트를 즐기며 어디를 가나 모든 곳이 이들에게는 무대입니다. 사실상 많은 배우가 이 성격 유형에 속하기도 합니다. 간혹 친구나 다른 이들과 어울릴 시 쇼맨십에 찬 모습을 보이기도 하는데, 썰렁한 유머를 던져 주의를 집중시키기도 하는 이들은 그들이 가는 곳곳마다 시끌벅적한 파티를 연상케 합니다. 매우 사교적인 성향의 이들은 단순한 것을 좋아하며, 좋은 사람들과 어울려 즐거운 시간을 갖는 것보다 세상에 더 큰 즐거움은 없다고 여깁니다.
+
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/esfp_photo"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💪ESFP 강점"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/esfp_good"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸굵게 – 엔터테이너는 뒤로 물러나는 것으로 알려져 있지 않습니다. 경험할 수 있는 모든 것을 경험하고 싶어하는 엔터테이너(Entertainer) 성격 유형을 가진 사람들은 다른 사람이 원하지 않을 때 자신의 안락한 지대를 벗어나는 것을 꺼리지 않습니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸오리지널 – 전통과 기대는 고려한다면 엔터테이너에게 부차적인 것입니다. 연예인은 새로운 스타일을 실험하는 것을 좋아하고 군중 속에서 눈에 띄는 새로운 방법을 끊임없이 찾습니다.
+"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸미학과 쇼맨십 – 엔터테이너 는 단순한 의상에 그치지 않고 말과 행동에 예술적 창의성을 불어넣습니다. 매일이 공연이고 엔터테이너들은 쇼를 하는 것을 좋아합니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸실용 - 엔터테이너에게 세상은 느끼고 경험하기 위한 것입니다. 진실은 허구보다 낯설고, 엔터테이너는 '만약에'에 대해 철학적인 이야기를 하는 것보다 보고 행동하는 것을 선호합니다."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸뛰어난 사람 기술 - 엔터테이너는 무엇보다 사람들에게 관심을 기울이는 것을 좋아합니다. 그들은 수다스럽고 재치 있으며 토론할 내용이 거의 부족하지 않습니다. 이 성격 유형을 가진 사람들에게 행복과 만족은 그들이 함께 있는 것을 좋아하는 사람들과 보내는 시간에서 비롯됩니다."></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💉ESFP 약점"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/esfp_bad"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸민감성 – 엔터테이너(특히 격렬한 사람들)는 감정이 매우 강하고 비판에 매우 취약합니다. 그들은 궁지에 몰린 것처럼 느끼며 때로는 심하게 반응합니다. 이것은 아마도 엔터테이너의 가장 큰 약점일 것입니다. 드러나는 다른 약점을 다루기가 너무 어렵기 때문입니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸갈등 회피 – 엔터테이너는 때때로 갈등을 완전히 무시하고 피합니다. 그들은 그러한 상황에서 벗어나기 위해 필요한 것을 말하고 행동한 다음 더 재미있는 것으로 이동하는 경향이 있습니다.
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸쉽게 지루함 - 끊임없는 흥분 없이 엔터테이너는 스스로 만드는 방법을 찾습니다. 위험한 행동, 방종, 장기 계획에 대한 순간의 쾌락은 엔터테이너가 너무 자주 접하는 모든 것입니다.
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸불쌍한 장기 계획 – 사실 연예인 성격은 미래에 대한 세부 계획을 거의 세우지 않습니다. 그들에게 상황은 오는 대로 오고, 계획 할 수 있는 일이 있더라도 언제든지 바뀔 수 있다는 믿음으로 시간을 내어 단계와 결과를 제시하는 데 거의 신경을 쓰지 않습니다 ."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸집중하지않는 – 장기적인 헌신과 집중이 필요한 모든 것은 엔터테이너에게 특별한 도전입니다. 학계에서는 고전 문학과 같이 밀도가 높고 변하지 않는 과목이 심리학과 같이 보다 역동적이고 관련이 있는 과목보다 훨씬 어렵습니다. 엔터테이너의 비결은 더 넓은 목표에서 일상의 기쁨을 찾고 반드시 해야 하는 지루한 일들로 그것을 힘들게 만드는 것입니다."></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💖환상의 궁합"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/isfj"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/font2"
+                android:text="ISFJ 용감한 수호자"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/istj"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/font2"
+                android:text="ISTJ 청렴결백한 논리주의자"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

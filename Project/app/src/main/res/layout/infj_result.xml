@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f1f3f5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="당신의 진단결과"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/font2"
+                    android:layout_gravity="center">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/infjj" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="유형:"
+                            android:fontFamily="@font/main"
+                            android:textStyle="bold"
+                            android:textSize="15dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/main"
+                            android:text="선의의 옹호자"
+                            android:textSize="15dp">
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="MBTI:"
+                            android:fontFamily="@font/main"
+                            android:textStyle="bold"
+                            android:textSize="15dp">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/main"
+                            android:text="INFJ"
+                            android:textSize="15dp">
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="연예인:"
+                            android:fontFamily="@font/main"
+                            android:textStyle="bold"
+                            android:textSize="15dp">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/main"
+                            android:text="송지효 , 아이유 , 서강준 , 수지"
+                            android:textSize="15dp">
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="비율:"
+                            android:fontFamily="@font/main"
+                            android:textStyle="bold"
+                            android:textSize="15dp">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/main"
+                            android:text="6.25%"
+                            android:textSize="15dp">
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/resultstyle1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/font2"
+                        android:text="내향적"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/inner"></ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/resultstyle2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/font2"
+                        android:text="직관적"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/intuition"></ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/resultstyle3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/font2"
+                        android:text="감정적"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/feeling"></ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/resultstyle4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/font2"
+                        android:text="판단적"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/judge"></ImageView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/descriptionstyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+
+
+                    android:layout_gravity="center"
+                    android:layout_width="380dp"
+                    android:layout_height="50dp"
+                    android:text="💪INFJ 강점"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/main"
+                    android:textColor="@color/black"
+                    android:gravity="center"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+
+                    android:src="@drawable/infj_good"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸창의적 – 옹호인은 자신이 관심 있는 사람들을 위한 완벽한 솔루션을 찾는 것을 즐깁니다. 이를 위해 그들은 생생한 상상력과 강한 동정심을 활용합니다. 이것은 그들을 훌륭한 카운슬러와 고문으로 만들 수 있습니다."></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸통찰력 – 옹호자는 일반적으로 과거의 모습을 바꾸고 사물의 핵심에 도달하려고 노력합니다. 이것은 사람들의 진정한 동기, 감정 및 필요를 이해하는 거의 놀라운 능력을 제공할 수 있습니다.
+"></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸원칙적 – 옹호 성격 유형을 가진 사람들은 신념을 깊이 간직하는 경향이 있으며, 자신에게 중요한 주제에 대해 말하거나 글을 쓸 때 신념이 빛을 발하는 경우가 많습니다. 옹호자는 설득력 있고 영감을 주는 의사소통자가 될 수 있으며, 그들의 이상주의는 가장 어려운 회의론자조차 설득할 수 있습니다."></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸열정적 - 옹호자는 다른 사람들을 방심케 할 수 있는 일심으로 자신의 이상을 추구할 수 있습니다. 이러한 성격은 '충분히 좋은 것'에 만족하는 경우가 거의 없으며 현상 유지를 교란하려는 의지가 모든 사람을 기쁘게 하지 않을 수도 있습니다. 즉, 자신이 선택한 대의에 대한 옹호자의 열정은 성격의 핵심 측면입니다."></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸이타적 – 옹호자는 일반적으로 더 큰 이익을 위해 자신의 강점을 사용하는 것을 목표로 합니다. 다른 사람을 희생시키면서 성공하는 것을 거의 즐기지 않습니다. 그들은 자신의 행동이 다른 사람들에게 어떤 영향을 미치는지 생각하는 경향이 있으며, 그들의 목표는 주변 사람들을 돕고 세상을 더 나은 곳으로 만드는 방식으로 행동하는 것입니다."></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/descriptionstyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+
+
+                    android:layout_gravity="center"
+                    android:layout_width="380dp"
+                    android:layout_height="50dp"
+                    android:text="💉INFJ 약점"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/main"
+                    android:textColor="@color/black"
+                    android:gravity="center"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+
+                    android:src="@drawable/infj_bad"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸비판에 민감 - 누군가가 자신의 원칙이나 가치에 도전할 때 옹호자는 강력하게 반응할 수 있습니다. 이 성격 유형을 가진 사람들은 비판과 갈등에 직면했을 때 방어적이 될 수 있습니다. 특히 마음에 가까운 문제에 관해서는 더욱 그렇습니다.
+"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸공개하기를 꺼림 - 정직성을 옹호하지만 사적이기도 합니다. 그들은 자신의 투쟁에 대해 마음을 여는 것이 어렵고 취약하다는 것을 알게 될 수 있습니다. 자신의 문제를 스스로 해결해야 한다고 생각하거나 문제로 다른 사람에게 부담을 주고 싶지 않기 때문일 수도 있습니다. 옹호자가 도움을 요청하지 않을 때, 그들은 무심코 자신을 억제하거나 관계에서 거리를 만들 수 있습니다.
+"></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸완벽주의 – 옹호 성격 유형은 거의 이상주의에 의해 정의됩니다. 이것은 여러 면에서 훌륭한 품질이지만 이상적인 상황이 항상 가능한 것은 아닙니다. 옹호자들은 계속해서 불완전성에 집착하고 더 나은 것을 찾아야 하는지 고민한다면 자신의 직업, 생활 상황 또는 관계를 이해하기 어려울 수 있습니다."></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸평범한 사람을 피하십시오 – 옹호 성격은 인생에서 더 큰 목적을 가지고 있다는 느낌에 의해 동기가 부여되는 경향이 있습니다. 그들은 큰 비전을 작고 관리 가능한 단계로 나누는 것이 지루하거나 불필요하다고 생각할 수 있습니다. 그러나 자신의 꿈을 일상과 할 일 목록으로 바꾸지 않으면 좌절감을 느낄 수 있습니다. 이러한 세부 사항이 없으면 목표가 실현되지 않을 수 있습니다."></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:text="🔸번아웃 경향이 있음 – 옹호자의 완벽주의와 비호감으로 인해 흥분을 가라앉힐 수 있는 옵션이 거의 없을 수 있습니다. 이 성격 유형을 가진 사람들은 필요한 자기 관리와 휴식을 통해 다른 사람들을 돕기 위해 균형을 유지하는 방법을 찾지 못하면 스스로 지칠 수 있습니다."></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/descriptionstyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+
+
+                    android:layout_gravity="center"
+                    android:layout_width="380dp"
+                    android:layout_height="50dp"
+                    android:text="💖환상의 궁합"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/main"
+                    android:textColor="@color/black"
+                    android:gravity="center"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="500dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/enfp"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/font2"
+                    android:text="ENFP 재기발랄한 활동가"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="500dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="13dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/entp"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/font2"
+                    android:text="ENTP 뜨거운 논쟁을 즐기는 변론가"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="MAIN"
+                android:fontFamily="@font/font2"
+                android:background="@drawable/buttonstyle2"
+                android:layout_marginBottom="20dp"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f1f3f5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/back"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="성격유형"
+                        android:textSize="15dp"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="ISFJ '용감한 수호자'"
+                            android:fontFamily="@font/main"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="401dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="240dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/isfj" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="😇성격유형 : '용감한 수호자' 소개"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="◼수호자형 사람은 꽤 독특한 특징을 가지고 있는데, 이 유형에 속하는 사람은 이들을 정의하는 성격 특성에 꼭 들어맞지 않는다는 점입니다. 타인을 향한 연민이나 동정심이 있으면서도 가족이나 친구를 보호해야 할 때는 가차 없는 모습을 보이기도 합니다. 조용하고 내성적인 반면 관계술에 뛰어나 인간관계를 잘 만들어갑니다. 안정적인 삶을 지향하지만 이들이 이해받고 존경받는다고 생각되는 한에서는 변화를 잘 수용합니다. 이처럼 수호자형 사람은 한마디로 정의 내리기 힘든 다양한 성향을 내포하고 있는데, 이는 오히려 그들의 장점을 승화시켜 그들 자신을 더욱 돋보이게 합니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="◼약 13%로 꽤 높은 인구 비율을 차지하는데, 인구 대다수를 차지하는 데 있어 이들보다 더 나은 성격 유형은 아마 없을 것입니다. 이들은 종종 의료 부분이나 학문, 혹은 사회단체와 같이 오랜 역사나 전통과 관련된 분야에 종사합니다. 수호자형 중 특히 신중한 성향을 가진 사람은 완벽주의자만큼이나 세심하고 꼼꼼한 면모를 보이기도 합니다. 간혹 일을 지연하는 경우가 있기는 하지만, 그렇다고 일을 시간 내에 마치지 않는 것은 아닙니다. 이들은 맡은 바 일에 책임감을 가지고 업무에 임하며, 회사나 가정에서 그들의 기대치를 넘어 주위 사람들을 만족시키고자 최선을 다합니다.
+
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/isfj_photo"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💪ISFJ 강점"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/isfj_good"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸지원 – 수비수는 보편적인 조력자로서 지식, 경험, 시간 및 에너지를 필요로 하는 모든 사람과 공유하고 친구 및 가족과 더 많이 공유합니다. 이 성격 유형을 가진 사람들은 윈-윈 상황을 위해 노력하고 가능하면 판단보다 공감을 선택합니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸신뢰할 수 있고 참을성 - 일을 절반으로 끝내는 산발적이고 흥분된 돌진을 제공하는 대신 Defenders는 세심하고 신중하며 꾸준한 접근 방식을 취하고 상황의 요구에 따라 최종 목표를 달성하기에 충분합니다. 수비수는 일이 최고 수준으로 수행되도록 할 뿐만 아니라 종종 필요한 것 이상으로 진행됩니다.
+"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸상상력 이 풍부 하고 관찰력이 뛰어남 – 수비수는 상상력이 풍부하고 이 특성을 공감의 액세서리로 사용하고 다른 사람의 감정 상태를 관찰하고 그들의 관점에서 사물을 봅니다. 발이 땅에 단단히 고정되어 있는 것은 매우 실제적인 상상이지만 매우 흥미롭고 영감을 주는 것을 발견합니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸열정적 – 목표가 맞으면 Defenders는 이 모든 지원, 신뢰성 및 상상력을 활용하여 사람들의 삶을 변화시킬 것이라고 믿는 것에 적용합니다. 글로벌 이니셔티브로 빈곤 퇴치이든 단순히 고객의 날을 만드는 것이든 상관 없습니다."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸충성스럽고 열심히 일함 - 시간이 지나면 이 열정은 충성으로 이어집니다. 수비수 성격은 종종 자신이 헌신한 아이디어와 조직에 정서적 애착을 형성합니다. 훌륭하고 열심히 일하여 의무를 이행하지 못하는 모든 것은 자신의 기대에 어긋납니다."></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💉ISFJ 약점"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/isfj_bad"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸겸손하고 수줍음 - 온유한 자들이 땅을 상속받을 것이나 그들이 전혀 인정을 받지 못한다면 그것은 먼 길입니다. 이것은 아마도 Defenders의 가장 큰 도전일 것입니다. 그들은 다른 사람들의 감정에 너무 관심이 많아서 자신의 생각을 알리기를 거부하거나 그들의 기여에 대해 정당하게 얻은 공로를 인정하지 않기 때문입니다. 수비수 자신에 대한 기준도 너무 높아서 작업의 사소한 부분을 더 잘할 수 있었다는 것을 알면서도 종종 자신의 성공을 완전히 경시합니다.
+
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸상황을 너무 개인적으로 받아들이 십시오 – 방어자는 개인적 상황과 비개인적 상황을 구분하는 데 어려움을 겪습니다. 모든 상황은 결국 여전히 두 사람 사이의 상호 작용입니다. 갈등이나 비판으로 인한 모든 부정은 직업에서 개인 생활로, 그리고 다시 돌아올 수 있습니다.
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸감정을 억제하십시오 – 방어자 성격 유형을 가진 사람들은 사적이고 매우 민감하며 자신의 감정을 많이 내면화합니다. 방어자가 다른 사람의 감정을 보호하는 것과 마찬가지로 자신의 감정도 보호해야 하며, 이러한 건강한 감정 표현의 부족은 많은 스트레스와 좌절로 이어질 수 있습니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸과부하 – 그들의 강한 의무감과 완벽주의가 감정적 갈등에 대한 이러한 혐오감과 결합하여 방어자들이 모든 사람의 기대를 충족시키기 위해 조용히 고군분투할 때 자신에게 과부하가 걸리거나 다른 사람들에 의해 과부하가 되기가 너무 쉬운 상황을 만듭니다. 자신의."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸변화를 꺼려함 - Defender 성격은 의사 결정에서 전통과 역사를 높이 평가하기 때문에 이러한 문제는 특히 해결하기 어려울 수 있습니다. 상황은 때때로 방어자가 상황 또는 사랑하는 사람의 강한 성격에 의해 방향을 변경하도록 설득되기 전에 한계점에 도달해야 합니다."></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💖환상의 궁합"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/esfp"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/font2"
+                android:text="ESFP 선의의 옹호자"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/estp"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/font2"
+                android:text="ESTP 용의주도한 전략가"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

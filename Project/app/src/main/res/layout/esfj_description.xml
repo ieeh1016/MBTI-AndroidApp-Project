@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f1f3f5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/back"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="성격유형"
+                        android:textSize="15dp"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="ESFJ '사교적인 외교관'"
+                            android:fontFamily="@font/main"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="401dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="240dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/esfj" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="😇성격유형 : '사교적인 외교관' 소개"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="◼사교형 사람을 한마디로 정의 내리기는 어렵지만, 간단히 표현하자면 이들은 '인기쟁이'입니다. 인구의 대략 12%를 차지하는 꽤 보편적인 성격 유형으로, 이를 미루어 보면 왜 이 유형의 사람이 인기가 많은지 이해가 갑니다. 종종 고등학교에서 치어리더나 풋볼의 쿼터백으로 활동하기도 하는 이들은 분위기를 좌지우지하며 여러 사람의 스포트라이트를 받거나 학교에 승리와 명예를 불러오도록 팀을 이끄는 역할을 하기도 합니다. 이들은 또한 훗날 다양한 사교 모임이나 어울림을 통해 주위 사람들에게 끊임없는 관심과 애정을 보임으로써 다른 이들을 행복하고 즐겁게 해주고자 노력합니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="◼과학 이론이나 국제 정치와 같은 대화 주제는 사교형 사람의 관심을 오래 잡아두지 못합니다. 대신 이들은 패션이나 외모, 그리고 그들을 포함하여 다른 사람의 사회적 지위와 같은 대화 소재에 더 많은 관심을 보입니다. 실생활 이야기나 가십거리가 이들에게는 한 마디로 빵과 버터 같은 대화 소재입니다. 하지만 좋은 일을 하는 데에는 그들이 가진 힘과 지위를 이용해 발 벗고 나서기도 합니다.
+
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/esfj_photo"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💪ESFJ 강점"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/esfj_good"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸강력한 실용 기술 – 영사는 일상적인 작업과 일상적인 유지 관리의 탁월한 관리자이며 가까운 사람들이 잘 보살핌을 받는 것을 즐깁니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸강한 의무감 – 영사 성격 유형을 가진 사람들은 강한 책임감을 갖고 의무를 이행하기 위해 노력하지만, 이는 때때로 내재적 충동보다 사회적 기대에 더 가깝습니다.
+"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸매우 충성심 – 안정성과 보안을 매우 중요하게 생각하는 영사관은 현상 유지를 열망하여 매우 충성스럽고 신뢰할 수 있는 파트너 및 직원이 됩니다. 영사는 그들이 속한 모든 그룹의 진정한 기둥입니다. 가족이든 커뮤니티 클럽이든 이러한 성격 유형을 가진 사람들은 항상 의지할 수 있습니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸민감하고 따뜻함 - 안정을 보장하는 데 도움이 되는 영사 성격은 조화를 추구하고 다른 사람의 감정에 깊이 관심을 갖고 다른 사람을 화나게 하거나 다치게 하지 않도록 주의합니다. 영사는 강한 팀 플레이어이고 윈-윈 상황은 미소가 만들어지는 재료입니다."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸다른 사람들과의 연결에 능숙함 – 이러한 자질은 영사관을 사교적이고 편안하며 좋은 사람으로 만들기 위해 함께 옵니다. 영사 성격은 '소속'에 대한 강한 욕구가 있으며 커뮤니티에서 적극적인 역할을 수행하는 데 도움이 되도록 잡담을 하거나 사회적 신호를 따르는 데 문제가 없습니다."></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💉ESFJ 약점"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/esfj_bad"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸사회적 지위에 대한 걱정 – 이러한 강점은 주요 약점과 관련이 있습니다. 사회적 지위와 영향력에 대한 영사의 집착은 많은 결정에 영향을 미치고 잠재적으로 창의성과 개방성을 제한합니다.
+
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸융통성 없음 – 영사는 사회적으로 용인되는 것에 많은 중요성을 부여하며, 관습에 얽매이지 않거나 주류를 벗어나는 모든 것에 대해 매우 신중하고 심지어 비판적일 수 있습니다. 이 성격 유형을 가진 사람들은 때때로 자신의 신념을 주류로 확립하기 위해 너무 세게 밀어붙일 수 있습니다.
+"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸혁신이나 즉흥을 꺼림 - 다른 사람의 '비정상적인' 행동에 대해 비판적일 수 있는 것과 마찬가지로 영사도 일반적으로 다른 사람이 되는 것이 두려워서 자신의 안락한 영역에서 벗어나기를 꺼릴 수 있습니다."></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸비판에 취약함 – 영사는 갈등을 매우 싫어하기 때문에 이러한 경향을 바꾸는 것이 특히 어려울 수 있습니다. 영사 성격은 누군가, 특히 가까운 사람이 습관, 신념 또는 전통을 비판하는 경우 매우 방어적이 되어 상처를 받을 수 있습니다."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="13dp"
+                android:text="🔸종종 너무 궁핍함 – 영사는 많은 감사를 듣고 볼 필요가 있습니다. 그들의 노력이 눈에 띄지 않으면 영사 성격 유형을 가진 사람들은 자신이 얼마나 가치 있는지 확인하기 위해 칭찬 낚시를 시작할 수 있습니다."></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/descriptionstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:text="💖환상의 궁합"
+                android:textSize="20dp"
+                android:fontFamily="@font/main"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/isfp"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/font2"
+                android:text="ISFP 호기심 많은 예술가"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:src="@drawable/istp"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/font2"
+                android:text="ISTP 만능 재주꾼"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
