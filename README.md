@@ -31,19 +31,19 @@ AndroidApp Project (MBTI)
 
 ## 개발 화면
 <h3>메인화면 및 MBTI별 특징화면</h3>
-<p align="center">
+<p align="left">
 <img src="https://user-images.githubusercontent.com/65186857/188112643-4df7b311-4056-4933-ba75-0d7abf0ae78c.png" width ="30%" height = "500"/>
 <img src="https://user-images.githubusercontent.com/65186857/188112662-27c287c1-dc34-49fa-97b1-edde9505726e.png" width ="30%" height = "500"/>
 <img src="https://user-images.githubusercontent.com/65186857/188112689-df762ef5-e52c-4574-a43b-82f30545c2fc.png" width ="30%" height = "500"/>
 </p>
 
 <h3>MBTI 진단화면</h3>
-<p align="center">
+<p align="left">
 <img src="https://user-images.githubusercontent.com/65186857/188112714-58756aca-f21a-45b0-832d-40f9e02e19e2.png" width ="30%" height = "500"/>
 <img src="https://user-images.githubusercontent.com/65186857/188112728-b64d9e24-4905-4b7a-9e63-645e595c063b.png" width ="30%" height = "500"/>
 </p>
 
 <h3>MBTI 진단결과</h3>
-<p align="center">
+<p align="left">
 <img src="https://user-images.githubusercontent.com/65186857/188112742-f5a8c096-b1e9-495a-a664-92d32e70abf3.png" width ="30%" height = "500"/>
 </p>
