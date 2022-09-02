@@ -31,6 +31,7 @@ AndroidApp Project (MBTI)
 
 ## 개발 화면
 <p align="center">
+  <h3></h3>
 <img src="https://user-images.githubusercontent.com/65186857/188112643-4df7b311-4056-4933-ba75-0d7abf0ae78c.png" width ="30%" height = "500"/>
 <img src="https://user-images.githubusercontent.com/65186857/188112662-27c287c1-dc34-49fa-97b1-edde9505726e.png" width ="30%" height = "500"/>
 </p>
